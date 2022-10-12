@@ -3,7 +3,7 @@ buffer-equal
 
 Return whether two buffers are equal.
 
-[![build status](https://secure.travis-ci.org/substack/node-buffer-equal.png)](http://travis-ci.org/substack/node-buffer-equal)
+[![build status](https://secure.travis-ci.org/inspect-js/buffer-equal.png)](http://travis-ci.org/inspect-js/buffer-equal)
 
 example
 =======
