@@ -1,40 +1,40 @@
 {
-    "name": "buffer-equal",
-    "description": "return whether two buffers are equal",
-    "version": "1.0.0",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/substack/node-buffer-equal.git"
-    },
-    "main": "index.js",
-    "keywords": [
-        "buffer",
-        "equal"
-    ],
-    "directories": {
-        "example": "example",
-        "test": "test"
-    },
-    "scripts": {
-        "lint": "eslint --ext=js,mjs .",
-        "pretest": "npm run lint",
-        "tests-only": "tape 'test/**/*.js'",
-        "test": "npm run tests-only",
-        "posttest": "aud --production"
-    },
-    "devDependencies": {
-        "@ljharb/eslint-config": "^21.0.0",
-        "aud": "^2.0.1",
-        "eslint": "=8.8.0",
-        "tape": "^5.6.1"
-    },
-    "engines": {
-        "node": ">=0.4"
-    },
-    "license": "MIT",
-    "author": {
-        "name": "James Halliday",
-        "email": "mail@substack.net",
-        "url": "http://substack.net"
-    }
+	"name": "buffer-equal",
+	"description": "return whether two buffers are equal",
+	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/substack/node-buffer-equal.git"
+	},
+	"main": "index.js",
+	"keywords": [
+		"buffer",
+		"equal"
+	],
+	"directories": {
+		"example": "example",
+		"test": "test"
+	},
+	"scripts": {
+		"lint": "eslint --ext=js,mjs .",
+		"pretest": "npm run lint",
+		"tests-only": "tape 'test/**/*.js'",
+		"test": "npm run tests-only",
+		"posttest": "aud --production"
+	},
+	"devDependencies": {
+		"@ljharb/eslint-config": "^21.0.0",
+		"aud": "^2.0.1",
+		"eslint": "=8.8.0",
+		"tape": "^5.6.1"
+	},
+	"engines": {
+		"node": ">=0.4"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "James Halliday",
+		"email": "mail@substack.net",
+		"url": "http://substack.net"
+	}
 }
