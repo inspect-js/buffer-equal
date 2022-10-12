@@ -1,3 +1,5 @@
+'use strict';
+
 var bufferEqual = require('../');
 
 console.dir(bufferEqual(
