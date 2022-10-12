@@ -1,5 +1,7 @@
+'use strict';
+
 var bufferEqual = require('../');
-var test = require('tap').test;
+var test = require('tape');
 
 test('equal', function (t) {
     var eq = bufferEqual(
